@@ -10,4 +10,10 @@ age = input("How old are you? ")
 location = input("Where do you live? ")
 
 # Print out a personalized message using the user's name, age, and location
+
+name = "Imran"
+age = 28
+location = "Sierra Leone"
+
 print(f"Hello {name}, you are {age} years old and live in {location}.")
+
