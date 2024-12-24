@@ -21,7 +21,8 @@ try:
     discount_percent = float(input("Enter the discount percentage: "))
 
     # Calculate the final price using the calculate_discount function
-    final_price = calculate_discount(original_price, discount_percent)
+    final_price = calculate_discount(original_price, discount_percent)     
+
 
     # Print the result
     if discount_percent >= 20:
